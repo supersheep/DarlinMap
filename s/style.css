@@ -1,0 +1,54 @@
+body,a,p,ul,ol,li,input,span,div,h1,h2,h3{margin:0;padding:0;font-size:12px;}
+ol,ul{list-style:none;}
+a{text-decoration:none;}
+body{background:#ccc;}
+
+.hd{margin-bottom:10px;}
+.hd .topnav{float:right;}
+.hd .topnav li{float:left;}
+.hd .topnav li float:left;}
+
+.clear-fix{}
+.clear-fix:after{content:'';clear:both;display:block;}
+
+.hide{display:none;}
+
+.row{width:950px;background:#fff;margin:0 auto;}
+.hd{}
+.hd .topnav li a{display:block;padding:0 10px;height:35px;line-height:35px;}
+
+.bd{}
+.bd .map{height:500px;}
+.bd .darlinlist{}
+.bd .darlinlist li{float:left;}
+.bd .darlinlist li img{width:50px;height:50px;padding:5px;margin:5px;border:1px solid #ccc;}
+
+
+/* Popup */
+.popup{background-color:rgba(255,255,255,0.7);position: fixed;top: 150px;left:450px;z-index:10;border-radius:10px;}
+.popup .inner{background:#fff;position:relative;margin:10px;width:400px;padding:15px;border-radius:10px;}
+.popup .inner a.close{background:#c31;display:block;position:absolute;right:5px;top:5px;border-radius:10px;height:20px;width:20px;text-align:center;line-height:20px;color:#fff;font-weight:bold;}
+.popup .inner a:hover{background:#e53;}
+.popup .inner .field{padding:0 0 20px 0;}
+.popup .inner .left{float:left;width:250px;}		
+.popup .inner .right{float:left;width:125px;}
+
+
+.popup .iconlist{clear:both;}
+.popup .iconlist .loading{display:block;margin:20px auto;}
+.popup .iconlist ul{margin:0 auto;width:360px;}
+.popup .iconlist li{float:left;position:relative;margin:0 5px 10px 5px;overflow:hidden;width:48px;text-align:center;padding:6px;border:1px solid #ccc;background-color:#eee;}
+.popup .iconlist li img{width:48px;height:48px;}
+.popup .iconlist li p{line-height:20px;height:16px;}
+.popup .iconlist li input{position:absolute;top:5px;left:5px;}
+.popup .iconlist .invitebtn{cursor:pointer;}
+.popup .iconlist .selected{background-color:#83BF73;color:#fff;}
+		
+		
+.popup .filter{margin:0 auto 10px auto;width:200px;}
+.popup .filter .input{float:left;height:23px;margin-right:10px;}		
+.popup #btn-addfriend{float:left;}	
+.btn{display:block;border-radius:5px;cursor:pointer;margin:0 auto;padding:5px 14px;;background-color:#eee;border:1px solid #ccc;background-image: -moz-linear-gradient(-90deg,#F8F8F8 0,#DDD 100%);background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#F8F8F8),color-stop(1,#DDD));}
+#btn-sendinvite{margin:0 auto;}
+.btn:active{background-image:none;}
+.disable{background-image:none;color:#666;}
